@@ -1,2 +1,6 @@
-a= input('Enter your data : ')
-print(type(a))
+a = input("Enter the name of the contract : ")
+b = int(input('Enter your number : '))
+print (type(b))
+x=input('enter first no : ')
+y=input('enter secon no : ')
+print(x+y)
