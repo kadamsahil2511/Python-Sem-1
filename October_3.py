@@ -1,16 +1,16 @@
 # October 3 
 # the else if ladder
 # syntax
-if expresssion 1 :
-    block of statement 
-elif expresssion 1 :
-    block of statement 
-elif expresssion 1 :
-    block of statement 
-elif expresssion 1 :
-    block of statement 
-else :
-    block of statement
+# if expresssion 1 :
+#     block of statement 
+# elif expresssion 1 :
+#     block of statement 
+# elif expresssion 1 :
+#     block of statement 
+# elif expresssion 1 :
+#     block of statement 
+# else :
+#     block of statement
 
 #program to find out whether a student is pass or fail
 
