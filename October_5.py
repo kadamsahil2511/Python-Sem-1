@@ -1,5 +1,6 @@
 #October 5
-'''l1= [10,20,30,40,50]
+'''
+l1= [10,20,30,40,50]
 #Printing the list using for loop
 for i in l1:
     print(i, end=',')
@@ -42,7 +43,6 @@ for i in range(1,101):
     if i%2==0:
         continue
     print(i, end =",")
-'''
 #Program to check whether a number is prime number or not
 n=int(input("Enter the number : "))
 flag = True
@@ -53,3 +53,19 @@ for i in range (2,n):
         break
 if flag == True:
     print("Prime no.")
+'''
+# pass block
+word = "python"
+for alpha in word :
+    if alpha=="h":
+        pass
+        print("this is pass block")
+    print("Current word : ", alpha)
+print("Good Bye")
+
+# To print all the numbres between 1 and 100
+for i in range(1,101):
+    if i%2==0:
+        pass
+    else :
+        print(i, end = ",")
