@@ -1,5 +1,5 @@
 #October 5
-'''
+
 l1= [10,20,30,40,50]
 #Printing the list using for loop
 for i in l1:
@@ -80,7 +80,7 @@ for i in range(1,6):
     for k in range(1,i+1):
         print ("*", end =" ")
     print("")
-'''
+
 #String
 a='''Hello Students !
 Welcome to the String Session !!'''
