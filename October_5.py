@@ -102,3 +102,18 @@ print (s1[1:3])
 print (s1[-1:-5:-1])
 print (s1[1:-1:2])
 
+# Sting is immutable and if you conconidate it, it'l generate new string instead of editing it
+
+#Escape Characters
+print("Hello \b World")
+print("Hello \n World")
+print("Hello \f World")
+print("Hello \r World")
+print("Hello \t World")
+print("Hello \v World")
+print("Hello \a World")
+print("\\")
+print("\'")
+print("\"")
+
+#String formatting operators
