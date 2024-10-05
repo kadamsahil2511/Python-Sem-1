@@ -68,7 +68,6 @@ for i in range(1,101):
         pass
     else :
         print(i, end = ",")
-'''
 # nested loops
 for i in range(1,6):
     for j in range(1,i+1):
@@ -81,4 +80,25 @@ for i in range(1,6):
     for k in range(1,i+1):
         print ("*", end =" ")
     print("")
+'''
+#String
+a='''Hello Students !
+Welcome to the String Session !!'''
+print(a)
+'''
+ #Forward and backward indexing
+       H   E   L   L   O
+Frwd   0   1   2   3   4
+Bckd  -5  -4  -3  -2  -1
+
+Syntax for slicing
+[starting index : end index : step]
+start = 0
+end = -1
+step = 1
+'''
+s1= 'COMPUTER'
+print (s1[1:3])
+print (s1[-1:-5:-1])
+print (s1[1:-1:2])
 
