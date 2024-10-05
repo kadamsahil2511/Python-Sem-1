@@ -53,7 +53,6 @@ for i in range (2,n):
         break
 if flag == True:
     print("Prime no.")
-'''
 # pass block
 word = "python"
 for alpha in word :
@@ -69,3 +68,9 @@ for i in range(1,101):
         pass
     else :
         print(i, end = ",")
+'''
+# nested loops
+for i in range(1,6):
+    for j in range(1,i+1):
+        print("*", end=" ")
+    print (" ")
