@@ -27,7 +27,6 @@ scope()
 #Recursion
 '''
 It is the processs where function call itself from it's own body and that function is called as recusive function
-'''
 #Factorial of number of recursion
 def factorial(n):
     if n==1:
@@ -36,3 +35,37 @@ def factorial(n):
         return n*factorial(n-1)
 
 print("The factoial is",factorial(1))
+'''
+
+# Python Modules
+'''
+
+import mymodule
+mymodule.sayhello("Sahil")
+mymodule.greet("Morning")
+from mymodule import bye
+bye("Sahil")
+'''
+import math
+print(dir(math))
+print("math.pi", math.degrees(0.5235987755982988))
+print("math sin", math.sin(0.5235987755982988))
+print("math cos", math.cos(0.5235987755982988))
+print("math tan", math.tan(0.5235987755982988))
+print("math log", math.log(10))
+print("math log 10", math.log10(10))
+print("math power", math.pow(2,4))
+print('math ceil',math.ceil(4.556))
+print("math floor", math.floor(4.556))
+
+import random
+print(random.random())
+print(random.randint(1,200))
+print(math.floor(random.random()))
+
+print(random.randrange(1,10,2))
+print(random.choice('Computer'))
+
+num=[1,2,3,4,5,6,7,8,9]
+random.shuffle(num)
+print(num)
