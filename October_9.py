@@ -8,6 +8,7 @@ def function_name(parameters):
     "Function_docstring"
     function_suite
     return[expression]
+    '''
 #eg 
 def message():
     print("Hello")
@@ -44,7 +45,7 @@ def calc(num):
     for i in num:
         s=s+i
         avg=s/len(num)
-        return s, avg
+    print("Sum of the numbersa is",s,"Average of numbers is",avg)
 num=[]
 flag =False
 while flag is False :
@@ -54,8 +55,7 @@ while flag is False :
     else :
         num.append(int(a))
 calc(num)
-print("Sum of the numbersa is",s,"Average of numbers is",avg)
-'''
+
 # Calculator usinsg functions
 def calc(a,b):
     def add(a,b):
