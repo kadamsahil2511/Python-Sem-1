@@ -13,5 +13,5 @@ class Bus(Vehicle):
         return total_fare + maintenance_charge
 
 # Example usage
-bus = Bus(50)
+bus = Bus(100)
 print(bus.fare())
